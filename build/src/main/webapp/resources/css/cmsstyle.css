@@ -1,0 +1,157 @@
+body {font-family: "Raleway",sans-serif;color: #FFF; font-size: 14px; background-image: url(../images/back-main.jpg);font-size: 16px;line-height: 1.6em;font-weight: 400;}
+html, body {width:100%; padding:0; margin:0;}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+a {
+    color: #5bc0de;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {background-color: transparent;text-decoration: none;}
+
+input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"], input[type="search"], textarea, .form-control, select {
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    height: 60px;
+    line-height: 1.2;
+    margin: 10px 0;
+    outline: medium none;
+    padding: 15px 10px;
+    transition: border-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+
+
+.center{text-align: center; margin: 0 auto;}
+.f-right{float: right;}
+.f-left{float: left;}
+.t-right{text-align: right;}
+.t-left{text-align: left;}
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after, .clearfix:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+
+.no-gutter > [class*=col-] {padding: 0;}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------Header+Nav--------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+
+
+.navbar-inverse{border: none;}
+.navbar-brand img {max-height: 200px;}
+.navbar-brand  h3{margin:0;color: #fff;}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+
+}
+.navbar-brand{
+    height: 61px;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+.navbar-brand img {
+    max-height: 200px;
+
+    margin-top: -87px;
+
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: red
+}
+.navbar-nav > li > .dropdown-menu {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: darkgreen;
+}
+.dropdown-menu > li > a {
+    color: white;
+}
+
+header {margin-top:20px;width: 100%;background: #333;}
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Content-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+#page-content{}
+.index-page {}
+
+/* ----------------- */
+/* ---HomePage--- */
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Footer---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------BackTop-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+#backTop{
+    width:35px;
+    height:35px;
+    padding:10px;
+    border-radius:4px;
+    text-indent:-9999px;
+    cursor:pointer;
+    z-index:999999999;
+    display:none;
+    box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+}
+#backTop.white{
+    background:url(../images/uparr-48-b.png) no-repeat center center rgba(255,255,255,0.8);
+    border:1px solid #ccc;
+}
+#backTop.black{
+    background:url(../images/uparr-48-w.png) no-repeat center center rgba(0,0,0,0.8);
+    border:1px solid #ccc;
+}
+#backTop.red{
+    background:url(../images/uparr-48-w.png) no-repeat center center rgba(218,37,29,0.8);
+    border:1px solid #fff;
+}
+#backTop.green{
+    background:url(../images/uparr-48-b.png) no-repeat center center rgba(81,217,187,0.9);
+    border:1px solid #fff;
+}
+#backTop.orange{
+    background:url(../images/uparr-48-w.png) no-repeat center center rgba(255, 127, 0, 0.8);
+    border:1px solid #fff;
+}
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Contact-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.table tbody tr:hover{
+    background-color: red;
+    color: white;
+}
+.table {
+    background-color: #000;
+}
+.thead{
+    background-color: red;
+    color: #000;
+}

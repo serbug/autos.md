@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <!-- Base Definition -->
+    <definition name="base-definition"
+                template="/WEB-INF/tiles/layouts/clientLayout.jsp">
+        <put-attribute name="title" value="Home"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/client/common/header.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/tiles/clientMenu.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/jsp/client/common/footer.jsp"/>
+    </definition>
+
+    <!-- Home Page -->
+    <definition name="home" extends="base-definition">
+        <put-attribute name="title" value="title.home.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/home.jsp"/>
+    </definition>
+
+    <definition name="client/car" extends="base-definition">
+        <put-attribute name="title" value="title.onecar.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/car.jsp"/>
+    </definition>
+
+
+
+    <definition name="client/newcars" extends="base-definition">
+        <put-attribute name="title" value="title.autonoi.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/newcars.jsp"/>
+    </definition>
+
+    <definition name="client/usedcars" extends="base-definition">
+        <put-attribute name="title" value="title.autousate.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/usedcars.jsp"/>
+    </definition>
+    <definition name="client/rentcars" extends="base-definition">
+        <put-attribute name="title" value="title.autochirie.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/rentcars.jsp"/>
+    </definition>
+    <!-- Contact-us Page -->
+    <definition name="contact" extends="base-definition">
+        <put-attribute name="title" value="title.contact.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/contact.jsp"/>
+    </definition>
+
+    <definition name="serviciiLeasing" extends="base-definition">
+        <put-attribute name="title" value="title.leasing.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/serviciiLeasing.jsp"/>
+    </definition>
+
+    <definition name="serviciiLaSchimb" extends="base-definition">
+        <put-attribute name="title" value="title.schimb.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/serviciiLaSchimb.jsp"/>
+    </definition>
+    <definition name="asigurare" extends="base-definition">
+        <put-attribute name="title" value="title.asigurare.page"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/client/asigurare.jsp"/>
+    </definition>
+</tiles-definitions>
